@@ -3,11 +3,11 @@
   "description": "Inferno port of 0x40 Hues",
   "main": "src/app.jsx",
   "version": "0.0.1",
-  "homepage": "https://github.com/Paturages/420.js",
+  "homepage": "https://github.com/Paturages/inferno.Hues",
   "author": "Paturages <c.ingouff@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Paturages/420.js"
+    "url": "https://github.com/Paturages/inferno.Hues"
   },
   "keywords": [
     "inferno",
