@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>0x40 Hues of Inferno</title>
+  <meta property="og:title" content="inferno.0x40.Hues">
+  <meta property="og:description" content="An Inferno port of 0x40 Hues">
+  <!-- go to http://0x40hues.blogspot.com for original Flash application -->
+  <!-- also see https://github.com/mon/0x40-web -->
+  <style>
+    #LoadingScreen {
+      font-family: 'Courier New', Courier, monospace;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+    }
+    #LoadingScreen center {
+      letter-spacing: 3px;
+    }
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+  <div id="LoadingScreen">
+    <br/><br/><br/>
+    <center>
+      <h1>0x40 Hues of Inferno</h1>
+      <br/>
+      <h3>Loading...</h3>
+      <br/>
+      <p>JavaScript is required to display this content.</p>
+    </center>
+  </div>
+  <!--[if IE]>
+    <script type="text/javascript" src="polyfills.js"></script>
+  <![endif]-->
+  <script src="bundle.js"></script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+.Rhythm {
+  position: relative;
+  font-weight: bold;
+  font-size: 2em;
+  width: 100%;
+  text-align: center;
+
+  &__container {
+    position: relative;
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+  }
+
+  &__left {
+    position: absolute;
+    top: 0;
+    left: 1.25em;
+  }
+
+  &__right {
+    position: absolute;
+    top: 0;
+    right: 1.25em;
+  }
+
+  &__current {
+    font-size: 2em;
+    margin-top: .25em;
+  }
+}
